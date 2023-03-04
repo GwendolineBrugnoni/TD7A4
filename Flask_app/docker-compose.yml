@@ -6,7 +6,7 @@ services:
         ports:
             - 5000:5000
         volumes:
-            - ./pythonproject1:/pythonproject1
+            - ./pythonproject1/text.txt:/pythonproject1/text.txt
     mongo-container:
         container_name: mongo-container
         image: mongo
